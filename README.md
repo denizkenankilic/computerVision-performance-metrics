@@ -1,7 +1,7 @@
 # computerVision-performance-metrics
 Calculating Performances with respect to Ground Truth Image
 
-In this repository, there is a Python script for calculating performance metrics by using ground truth image and output image of a prediction. There are two types of ground truth type such as 'pixel' and 'bounding box'. If the 'bounding box' type is selected, then the format of the ground truth type is json as:
+In this repository, you see a Python script for calculating performance metrics by using ground truth image and output image of a prediction. There are two types of ground truth type such as 'pixel' and 'bounding box'. If the 'bounding box' type is selected, then the format of the ground truth type is json as:
 
       "samples": [{
         "class" : {"type" : "string"},
